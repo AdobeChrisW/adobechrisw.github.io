@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>AEM in the Cloud Sizing Questionnaire</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie.css?20140508" />
+    <![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie7.css" /><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" type="text/css" media="all" href="https://www.formstack.com/forms/css/3/ie6fixes.css" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/css/3/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/css/3/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/css/3/default-v4.css"/>
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/css/3/light.css"/>
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/../common/css/uil-static.css"/>
+    <link rel="stylesheet" type="text/css" href="//static.formstack.com/forms/css/common/dialogs.css"/>
+    <style type="text/css">
+    </style>
+</head>
+<body class="fsBody " id="fsLocal">
+    <form novalidate enctype="multipart/form-data" class="fsForm fsMultiColumn fsMaxCol2" id="fsForm4316828">
+        <input type="hidden" name="form" value="4316828"/>
+        <input type="hidden" name="viewkey" value="NVgQRlQRd3"/>
+        <input type="hidden" name="hidden_fields" id="hidden_fields4316828" value=""/>
+        <input type="hidden" name="_submit" value="1"/>
+        <input type="hidden" name="incomplete" id="incomplete4316828" value=""/>
+        <input type="hidden" name="incomplete_password" id="incomplete_password4316828"/>
+        <input type="hidden" name="style_version" value="3"/>
+        <input type="hidden" id="viewparam" name="viewparam" value="918182"/>
+        <div id="requiredFieldsError" style="display:none;">Please fill in a valid value for all required fields</div>
+        <div id="invalidFormatError" style="display:none;">Please ensure all values are in a proper format.</div>
+        <div id="resumeConfirm" style="display:none;">Are you sure you want to leave this form and resume later?</div>
+        <div id="resumeConfirmPassword" style="display: none;">Are you sure you want to leave this form and resume later? If so, please enter a password below to securely save your form.</div>
+        <div id="saveAndResume" style="display: none;">Save and Resume Later</div>
+        <div id="saveResumeProcess" style="display: none;">Save and get link</div>
+        <div id="fileTypeAlert" style="display:none;">You must upload one of the following file types for the selected field:</div>
+        <div id="embedError" style="display:none;">There was an error displaying the form. Please copy and paste the embed code again.</div>
+        <div id="applyDiscountButton" style="display:none;">Apply Discount</div>
+        <div id="dcmYouSaved" style="display:none;">You saved</div>
+        <div id="dcmWithCode" style="display:none;">with code</div>
+        <div id="submitButtonText" style="display:none;">Submit</div>
+        <div id="submittingText" style="display:none;">Submitting</div>
+        <div id="validatingText" style="display:none;">Validating</div>
+        <div id="autocaptureDisabledText" style="display:none;"></div>
+        <div id="paymentInitError" style="display:none;">There was an error initializing the payment processor on this form. Please contact the form owner to correct this issue.</div>
+        <div id="checkFieldPrompt" style="display:none;">Please check the field: </div>
+        <div id="translatedWord-fields" style="display:none;">Fields</div>
+        <div class="fsPage" id="fsPage4316828-1">
+            <div id="ReactContainer4316828" style="display:none" class="FsReactContainerInitApp" data-fs-react-app-id="4316828"></div>
+            <div class="fsSection fs2Col" id="fsSection107915580">
+                <div class="fsSectionHeader">
+                    <h2 class="fsSectionHeading">AEM Cloud Sizing Questionnaire Link Generator</h2>
+                </div>
+                <div id="fsRow4316828-2" class="fsRow fsFieldRow fsLastRow">
+
+                    <div class="fs-clear"></div>
+                </div>
+                <div id="fsRow4316828-3" class="fsRow fsFieldRow">
+                    <div class="fsRowBody fsCell fsFieldCell fsFirst fsLabelVertical fsSpan50" id="fsCell107915582" lang="en" fs-field-type="text" fs-field-validation-name="YOUR email address">
+                        <br>
+                        <h1>Step 1</h1>
+                        <br>
+                        <br>
+
+                        <label id="label107915582" class="fsLabel fsRequiredLabel" for="field107915582">
+                            Please type in your Adobe Email Address
+                            <span class="fsRequiredMarker">*</span>
+                        </label>
+                        <input type="text" id="field107915582" name="field107915582" size="50" required value="" class="fsField fsFormatText fsRequired   " aria-required="true"/>
+                        <div id="fsSupporting107915582" class="fsSupporting">The results when submitted will be emailed back to this address</div>
+                    </div>
+
+                    <div id="fsRow4316828-4" class="fsRow fsFieldRow fsLastRow">
+
+                        <div class="fsRowBody fsCell fsFieldCell fsFirst fsLabelVertical fsSpan50" id="fsCell107915584" lang="en" fs-field-type="embed" fs-field-validation-name="">
+
+                            <script>
+                            function myFunction() {
+                                var emailadd = document.getElementById("field107915582").value;
+                                var validadobe = emailadd.toLowerCase();
+                                if (validadobe.includes('@adobe')) {
+                                    document.getElementById("myInput").value = "https://aemsizing.adobe.com/?email=" + emailadd;
+                                }
+                                else
+                                {
+                                    alert("Please put in a valid Adobe Email Address in the box");
+
+                                }
+
+
+
+
+
+                            }
+                            </script>
+
+                            <script>
+                            function myFunction1() {
+                                var copyText = document.getElementById("myInput");
+                                copyText.select();
+                                copyText.setSelectionRange(0, 99999)
+                                document.execCommand("copy");
+                                //alert("Copied the link to your clipboard");
+                                alert("Copied this link to your clipboard \r\n" + copyText.value);
+                            }
+                            </script>
+
+                            <script>
+                            function myFunction2() {
+
+                                var emailadd = document.getElementById("field107915582").value;
+                                var validadobe = emailadd.toLowerCase();
+                                if (validadobe.includes('@adobe')) {
+                                    var emailadd = document.getElementById("field107915582").value;
+                                    window.location.href = "https://aemsizing.adobe.com/?email=" + emailadd;
+                                }
+                                else
+                                {
+                                    alert("Please put in a valid Adobe Email Address in the box");
+                                }
+                            }
+                            </script>
+
+                            <script>
+                            function myFunction3() {
+                                var emailadd = document.getElementById("field107915582").value;
+                                var validadobe = emailadd.toLowerCase();
+                                if (validadobe.includes('@adobe')) {
+                                    document.getElementById("myInput2").value = "https://aemsizing.adobe.com/ae/?email=" + emailadd;
+                                }
+                                else
+                                {
+                                    alert("Please put in a valid Adobe Email Address in the box");
+
+                                }
+
+
+
+
+
+                            }
+                            </script>
+
+                            <script>
+                            function myFunction4() {
+                                var copyText = document.getElementById("myInput2");
+                                copyText.select();
+                                copyText.setSelectionRange(0, 99999)
+                                document.execCommand("copy");
+                                //alert("Copied the link to your clipboard");
+                                alert("Copied this link to your clipboard \r\n" + copyText.value);
+                            }
+                            </script>
+
+                            <script>
+                            function myFunction6() {
+
+                                var emailadd = document.getElementById("field107915582").value;
+                                var validadobe = emailadd.toLowerCase();
+                                if (validadobe.includes('@adobe')) {
+                                    var emailadd = document.getElementById("field107915582").value;
+                                    window.location.href = "https://aemsizing.adobe.com/ae/?email=" + emailadd;
+                                }
+                                else
+                                {
+                                    alert("Please put in a valid Adobe Email Address in the box");
+                                }
+                            }
+                            </script>
+
+                            <script type="text/javascript">
+                            var cname = document.getElementById("field107915583");
+                            //cname.setAttribute("style", "display:inline; color: red;");
+                            cname.setAttribute("oninput", "checkcname();");
+                            cname.setAttribute("autocomplete", "off");
+                            function checkcname() {
+                                var cname2 = document.getElementById("field107915583");
+                                var cname3 = cname2.value;
+                                //console.log(cname3);
+                                //console.log(cname2);
+                                if (cname3 == "Adobe") {
+                                    alert("Please put the client name in the company box, not Adobe");
+                                    cname2.value = "";
+                                }
+                                if (cname3 == "adobe") {
+                                    alert("Please put the client name in the company box, not Adobe");
+                                    cname2.value = "";
+                                }
+                            }
+                            </script>
+                        </div>
+                        <style>
+                        * {
+                            box-sizing: border-box;
+                        }/* Create two equal columns that floats next to each other */
+
+                        .column {
+                            float: left;
+                            width: 50%;
+                            padding: 10px;
+                            height: 300px;
+                            /* Should be removed. Only for demonstration */
+                        }/* Clear floats after the columns */
+
+                        .row:after {
+                            content: "";
+                            display: table;
+                            clear: both;
+                        }
+                        </style>
+                        <div class="fs-clear"></div>
+                    </div>
+                    <!--<h2>Two equal columns</h2>-->
+
+                    <div class="row">
+                        <br>
+                        <h1>For AEM Sites / Assets / Forms / Screens</h1>
+                        <br>
+
+                        <div class="column" style="background-color:white;">
+                            <h2>Option 1</h2>
+                            <!-- <p style="color: red">Recommended</p>-->
+                            <br>
+
+                            <p style="font-size: smaller;">Copy & Send link to your client to complete the Questionnaire</p>
+                            <button type="button" style="background-color: #4CAF50; /* Green */
+                            border: none;
+                            color: white;
+                            padding: 15px 32px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            margin: 4px 0px;
+                            cursor: pointer;" onclick="myFunction()">Click here to get a link to send your client</button>
+
+                            <input type="text" value="" id="myInput" style="width: 350px;height: 40px; border-color: black; border-width: thin;">
+                            <br>
+                            <button type="button" style="background-color:red; /* Green */
+                                  border: none;
+                                  color: white;
+                                  padding: 15px 32px;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  margin: 4px 0px;
+                                  cursor: pointer;" onclick="myFunction1()">Copy text</button>
+                        </div>
+                        <div class="column" style="background-color: white; height: 100px;">
+                            <h2>Option 2</h2>
+                            <br>
+                            <p style="font-size: smaller;">Go to sizing Questionnaire and fill it out on the clients behalf</p>
+                            <button type="button" onclick="myFunction2()" style="background-color:royalblue; /* Green */
+                            border: none;
+                            color: white;
+                            padding: 15px 32px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            margin: 0px 0px;
+                            cursor: pointer;">Click here to go to Sizing Questionnaire </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br>
+                        <h1>For Assets Essentials</h1>
+                        <br>
+
+                        <div class="column" style="background-color:white;">
+                            <h2>Option 1</h2>
+                            <!-- <p style="color: red">Recommended</p>-->
+                            <br>
+
+                            <p style="font-size: smaller;">Copy & Send link to your client to complete the Questionnaire</p>
+                            <button type="button" style="background-color: #4CAF50; /* Green */
+                              border: none;
+                              color: white;
+                              padding: 15px 32px;
+                              text-align: center;
+                              text-decoration: none;
+                              display: inline-block;
+                              margin: 4px 0px;
+                              cursor: pointer;" onclick="myFunction3()">Click here to get a link to send your client</button>
+
+                            <input type="text" value="" id="myInput2" style="width: 350px;height: 40px; border-color: black; border-width: thin;">
+                            <br>
+                            <button type="button" style="background-color:red; /* Green */
+                                    border: none;
+                                    color: white;
+                                    padding: 15px 32px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    margin: 4px 0px;
+                                    cursor: pointer;" onclick="myFunction4()">Copy text</button>
+                        </div>
+                        <div class="column" style="background-color: white; height: 100px;">
+                            <h2>Option 2</h2>
+                            <br>
+                            <p style="font-size: smaller;">Go to sizing Questionnaire and fill it out on the clients behalf</p>
+                            <button type="button" onclick="myFunction6()" style="background-color:royalblue; /* Green */
+                              border: none;
+                              color: white;
+                              padding: 15px 32px;
+                              text-align: center;
+                              text-decoration: none;
+                              display: inline-block;
+                              margin: 0px 0px;
+                              cursor: pointer;">Click here to go to Sizing Questionnaire </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="fsSection fs2Col" id="fsSection107915585">
+                <div class="fsSectionHeader">
+                <h2 class="fsSectionHeading">Solution Required</h2>
+                </div>
+                </div> -->
+</body>
+</html>
+
